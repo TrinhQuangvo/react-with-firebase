@@ -5,13 +5,13 @@ function SignedInLink(props) {
   return (
     <ul className="right ">
       <li>
-        <NavLink to="/new project">New Project</NavLink>
+        <NavLink to="/create">New Project</NavLink>
       </li>
       <li>
-        <NavLink to="/new project">Log Out</NavLink>
+        <NavLink to="/signout">Log Out</NavLink>
       </li>
       <li>
-        <NavLink to="/new project" className="btn btn-floating pink lighten-1">LL</NavLink>
+        <NavLink to="/" className="btn btn-floating pink lighten-1">LL</NavLink>
       </li>
     </ul>
   );
