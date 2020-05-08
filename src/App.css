@@ -1,7 +1,6 @@
 body{
-  background: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg) no-repeat 100% center ;
   background-size: cover;
-  
+  background:  rgb(60, 253, 163);
 }
 
 form{
@@ -9,5 +8,6 @@ form{
   margin: 20px 0;
   background: #fff;
   border:1px solid rgba(34, 34, 34,);
-  border-radius: ;
+  border-radius: 10px;
 }
+
