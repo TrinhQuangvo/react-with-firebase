@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Notification from "./Notification";
 import ProjectList from "../projects/ProjectList";
 import { connect } from 'react-redux'
-import projectReducer from "../../store/reducers/projectReducer";
 
 class Dashboard extends Component {
   render() {
